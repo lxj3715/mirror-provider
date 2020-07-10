@@ -1,0 +1,11 @@
+server:
+  port: 8764
+spring:
+  application:
+    name: fw-register-eureka-client
+eureka:
+  client:
+    service-url:
+       defaultZone: http://localhost:8761/eureka/
+#      defaultZone: http://fwcloud:123456@localhost:8761/eureka/  开启密码功能需要
+#      defaultZone: http://localhost:8761/eureka/,http://localhost:8762/eureka/
